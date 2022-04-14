@@ -1,0 +1,24 @@
+body {
+    min-width: 372px;
+}
+.wrapper{
+    min-height: 100vh;
+}
+p.truncar-3L {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media screen and (max-width: 469px){
+    .mt-xs-3{
+        margin-top: 1rem;
+    }
+}
+.barra-nav{
+    background-color: #0317AD;
+}
+.btnDoSite{
+    background-color: #0317AD
+}
